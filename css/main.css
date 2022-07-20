@@ -3,7 +3,7 @@
   justify-content: space-between;
   background: #fff;
   margin-bottom: 25px;
-  padding: 0 60px;
+  padding: 0 80px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -73,7 +73,7 @@
   display: flex;
   justify-content: space-between;
   background: #fefaf5;
-  padding: 40px 60px 0 60px;
+  padding: 40px 80px 0 80px;
   padding-bottom: 60px;
 }
 
@@ -130,7 +130,7 @@
 
 /* Recommendations */
 .recom {
-  padding: 20px 60px;
+  padding: 20px 80px;
 }
 .recom__header {
   color: #335576;
@@ -142,6 +142,7 @@
 .recom__container {
   display: flex;
   width: 65%;
+  height: 500px;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -150,17 +151,25 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  box-sizing: content-box;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-  width: 199px;
-  height: 275px;
+  min-width: 220px;
+  /* min-width: 100%; */
+  min-height: 350px;
+  /* width: 199px;
+  height: 275px; */
+
+  width: 30%;
+  height: 20%;
   margin-bottom: 30px;
 }
 
-.recom__card-label {
+.recom__card--label {
   color: #fff;
-  font-size: 700;
+  font-weight: 700;
+  font-size: 1.25rem;
   padding-bottom: 10px;
   padding-right: 10px;
 }
@@ -185,7 +194,7 @@
 .business-info__container {
   display: flex;
   justify-content: space-between;
-  width: 67%;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -204,8 +213,8 @@
 
 .business-info__social {
   padding-bottom: 0;
-  margin-right: 40px;
-  padding-right: 10px;
+  /* margin-right: 40px; */
+  padding-right: 40px;
 }
 
 /* .business-info__hours{
@@ -221,7 +230,7 @@
   padding-top: 1.25rem;
   margin: 1.25rem 1.25rem 1.25rem 0;
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 700;
 }
 .business-info__titles {
   color: #db7a4e;
